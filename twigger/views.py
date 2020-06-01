@@ -24,7 +24,7 @@ class PostListView(ListView):
     # we named our template differently so we need to set this variable
     context_object_name = 'posts' # by default it is called objectList, we have diffrent name so we need to set it here
     ordering = ['-date_posted']
-    paginate_by = 2
+    paginate_by = 5
 
 class UserPostListView(ListView):
     model = Post 

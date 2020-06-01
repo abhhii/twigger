@@ -8,6 +8,8 @@ class Post(models.Model):
     content = models.TextField()
     date_posted = models.DateTimeField(default = timezone.now)
     author = models.ForeignKey(User, on_delete=models.CASCADE)
+    # userswholike = models.ManyToManyField(User, blank=True)
+    # like_count = models.IntegerField(default=0)
 
     def __str__(self):
         return self.title
