@@ -1,6 +1,9 @@
 # twigger
 Twitter clone in django
 
+Quickly checkout the app at this link:
+https://twiggerapp.herokuapp.com/
+
 To see this app in action
 1) Clone this repo\s\s
 2) Open terminal in the project directory\s\s
