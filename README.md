@@ -4,6 +4,8 @@ Twitter clone in django
 Quickly checkout the app at this link:
 https://twiggerapp.herokuapp.com/
 
+Profile pics are not shown at heroku since heroku deletes any extra files added by the users
+
 To see this app in action
 1) Clone this repo\s\s
 2) Open terminal in the project directory  
